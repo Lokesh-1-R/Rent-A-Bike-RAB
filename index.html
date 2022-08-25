@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BikeRental</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          
+          src="png\kawaski.jpg"
+          alt="Bike logo"
+          class="nav__logo"
+          id="logo"
+          designer="Loki"
+          data-version-number="3.0"
+        />
+        <p class="Heading_title"> <span class="highlight">Rent a Bike</span></h2>
+        <ul class="nav__links">
+          
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Home</a>
+          </li>
+        
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Bikes</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Book bike</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Book
+          <!-- Green highlight effect -->
+          <span class="highlight">your</span>
+          <br />
+          <span class="highlight">Favourite</span>
+          <span class="highlight">Bike</span>
+        </h1>
+        <h4>We are here to provide your Favourite bike for Rent</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img src="png\20493175.jpg" class="header__img" alt="BikeImage" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Home</h2>
+        <h3 class="section__header">
+          We are here to provide a good conditioned bike for rent at minimal cost  
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="png\bmw-g310r-2.jpg"
+          data-src="png\bmw-g310r-2.jpg"
+          alt="Bajaj"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Bikes</h5>
+          <p>Dear customers,we have a  different collection of Bikes</p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Select the bike</h5>
+          <p>Choose your Favourite bike wisely</p>
+        </div>
+        <img
+          src="png\2018-triumph.jpg"
+          data-src="png\2018-triumph.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="png\2021-BMW-G-310-R-Announced-2.jpg"
+          data-src="png\2021-BMW-G-310-R-Announced-2.jpg"
+          alt="Bike"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Billing Procedure</h5>
+          <p>
+            The billing depends on how far you have been travelled and in which
+            bike you have travelled
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Bikes</h2>
+        <h3 class="section__header">
+          We have listed certain bikes in our bikerental website
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Pulsar 220
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Hornet
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Appache
+          </button>
+          <button class="btn operations__tab operations__tab--4" data-tab="4">
+            <span>04</span>pulsar 150
+          </button>
+          <button class="btn operations__tab operations__tab--5" data-tab="5">
+            <span>05</span>Honda shine
+          </button>
+          <button class="btn operations__tab operations__tab--6" data-tab="6">
+            <span>06</span>Activa Honda
+          </button> 
+         
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Bajaj Pulsar 220CC Engine</h5>
+          <pre>
+            Fuel economy: 40 km/l
+            Curb weight: 160 kg
+            Max speed: 134 km/h
+            Fuel tank capacity: 15 L
+            Seat height: 795 mm
+            Price : 400 RS/DAY
+          </pre>
+          <img class="Bike_Rent" src="png\bajaj-pulsar-220-black-blue.png" alt="Pulsar220.Jpg">
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Honda CB Hornet 160R BS4
+          </h5>
+          <pre>
+            Fuel economy: 24 km/l
+            Curb weight: 165 kg
+            Max speed: 156 km/h
+            Fuel tank capacity: 17 
+            Price : 500 RS/DAY
+          </pre>
+          <img class="Bike_Rent" src="png\Hornet.jpg" alt="Hornet160R.Jpg">
+
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-y"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+          TVS APPACHE RTR 160</h5>
+          <pre>
+            Fuel economy: 45 km/l
+            Curb weight: 170 kg
+            Max speed: 179 km/h
+            Fuel tank capacity: 22 L
+            Seat height: 795 mm
+            Price : 430 RS/DAY
+          </pre>
+          <img class="Bike_Rent" src="png\Appache RTR160.jpg" alt="Appache RTR160.jpg">
+        </div>
+      </div>
+      <div class="operations__content operations__content--4">
+        <div class="operations__icon operations__icon--4">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-z"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+                Bajaj Pulsar 150CC    </h5>
+        <pre class="description">
+                      Fuel economy: 45 km/l
+                      Curb weight: 160 kg
+                      Max speed: 134 km/h
+                      Fuel tank capacity: 15 L
+                      Seat height: 795 mm
+                      Price : 350 RS/DAY
+        </pre>
+        <img class="Bike_Rent" src="png\Pulsar150.jpg" alt="Pulsar150.jpg">
+
+      </div>
+    </div>
+     <div class="operations__content operations__content--5">
+      <div class="operations__icon operations__icon--5">
+        <svg>
+          <use xlink:href="img/icons.svg#icon-user-w"></use>
+        </svg>
+      </div>
+      <h5 class="operations__header">
+       Honda shine 150CC
+      </h5>
+      <pre class="description">
+                 Fuel economy: 55 to 65 km/l
+                 Curb weight: 114 to 123 kg
+                 Fuel tank capacity: 10.5 L
+                 Seat height: 790 to 791 mm
+                 Price : 300 RS/DAY
+      </pre>
+      <img class="Bike_Rent" src="png\Honda shine.jpg" alt="Honda shine.jpg">
+
+    </div>
+  </div>
+   <div class="operations__content operations__content--6">
+    <div class="operations__icon operations__icon--6">
+      <svg>
+        <use xlink:href="img/icons.svg#icon-user-x"></use>
+      </svg>
+    </div>
+    <h5 class="operations__header" style="text-align: justify;">
+    Activa Honda 5G     </h5>
+    <pre class="description">
+                    Fuel economy: 60 km/l
+                    Curb weight: 109 kg
+                    Max speed: 100 km/h
+                    Fuel tank capacity: 5.3 L
+                    Seat height: 765 mm
+                    Price : 250 RS/DAY
+    </pre>
+    <img class="Bike_Rent" src="png\Activa.jpg" alt="Activa.jpg">
+
+  </div>
+  
+
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Lets have a fun in journey</h2>
+        <h3 class="section__header">
+          A beautiful journey creates a lots of memories ☺
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Safe-Ride</h5>
+            <blockquote class="testimonial__text">
+              Your safety is our priority.From santiizing all bikes before every
+            use to extensive on-ground safety mesures,rides with us will always
+            be safe and reliable.We also offer helmets on demand.
+          
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Drive safely</h6>
+              <p class="testimonial__location">follow Traffic rules</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Smart Mobility
+            </h5>
+            <blockquote class="testimonial__text">
+              You can choose any bike,make instant payment get offer and manage
+            all aspect of your experience right from the comfort zone.
+         </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Billing</h6>
+              <p class="testimonial__location">Varies on bikes</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Pickup-station
+            </h5>
+            <blockquote class="testimonial__text">
+              Your local station is here to make ensure your two-wheeller
+            experience is flawless.At your neighbourhood station,you get to pick
+            any bike,get maintaince,sanitized and lots more.
+       </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Bike Station</h6>
+              <p class="testimonial__location">Book and get a bike</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day in life is created because of memories created on particular day.
+        
+          So book a bike now,and start creating beautiful memories
+        </h3>
+       </div>
+      <button class="btn btn--show-modal">Book a bike</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+       
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="png\20493175.jpg" alt="Logo" class="footer__logo" />
+      <pre class="footer__copyright">
+    Copyright by
+   Lokesh R
+   This project is further extended 
+      </pre>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+      Create Account<br />
+        to  <span class="highlight">Book a bike</span>
+      </h2>
+      <form class="modal__form" action="DCon.php" method="post">
+        <label>First Name</label>
+        <input type="text" name="First_name" autocomplete="off" />
+        <label>Last Name</label>
+        <input type="text" name="Last_name" autocomplete="off" />
+        <label>Email Address</label>
+        <input type="email" name="email" autocomplete="off" />
+        <label>Date-of-Birth</label>
+        <input type="date" name="Date-of-Birth" autocomplete="off"/>
+        <label>Mobile Number</label>
+        <input type="tel" name="MobileNumber" autocomplete="off"/>
+
+        <!-- <label>Driving License</label>
+        <input type="file" id="myfile " name="filename" accept=".pdf,"> -->
+
+        <input type="submit" name="register" class="btn">
+        <!-- <button class="btn">Submit</button> -->
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
